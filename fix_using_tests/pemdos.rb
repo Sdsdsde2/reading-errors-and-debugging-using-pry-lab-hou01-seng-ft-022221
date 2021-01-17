@@ -7,6 +7,8 @@ def snake_it_up(string)
     #Using 10.times { - } only returns "10".
     #Using "s" + string returns "ssurprise!".
     "s" + string
+    binding.pry
+    string
     #string
   else
     string
